@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --primary-color: #DB2777;
+    --secondary-color: #151718;
+}
+
+body {
+    background: url("./assets/background-image.png");
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    text-align: center;
+    margin-top: 160px;
+}
+
+h1 {
+    color: var(--secondary-color);
+    font-size: 35px;
+    letter-spacing: 4px;
+    line-height: 80px;
+    font-family: 'Gloock', serif;
+}
+
+h1 .captalize {
+    color: var(--secondary-color);
+    font-size: 47px;
+}
+
+h1 .captalize-travel {
+    font-size: 47px;
+}
+
+h1 .color-title {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--secondary-color);
+    opacity: 0.8;
+    font-size: 18px;
+    line-height: 19px;
+    font-family: sans-serif;
+    margin-bottom: 80px;
+}
+
+a {
+    gap: 40px;
+    font-family: 'Gloock', serif;
+    padding: 12px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    border-radius: 40px;
+}
+
+a:hover,
+.btn-primary {
+    color: #ffffff;
+    background-color: var(--primary-color);
+    opacity: 1;
+}
+
+.btn-primary {
+    margin-left: 20px;
+}
