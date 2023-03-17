@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Spectral:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Spectral', serif;
+    text-align: center;
+    background: url("https://i.ibb.co/V2LsKCM/background-image.jpg") no-repeat center/cover;
+    height: 660px;
+    color: #EBF1FB;
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-family: 'Beth Ellen', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120px;
+}
+
+h1 span {
+    color: #5EEAD4
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 72px;
+}
+
+a {
+    color: #EBF1FB;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+a:hover,
+.btn-primary {
+    background: #5EEAD4;
+    border-radius: 8px;
+    color: #0B0C0E;
+    text-decoration: none;
+}
